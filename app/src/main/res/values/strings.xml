@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Pet_out</string>
+
+    //StepActivity
+    <string name="SplashBienvenida">Bienvenidos</string>
+    <string name="Slogan">EL lugar donde cuidamos tu amigo fiel</string>
+    //LoginActivity
+    <string name="botonInicioSesion">InicioSesion</string>
+    <string name="botonRegistrarse">Registrarse</string>
+
+    //InicioSesionActivity
+    <string name="InicioSesionCorreo">Correo</string>
+    <string name="InicioSesionContraseña">Contraseña</string>
+    <string name="botonInicioSesionContinuar">Continuar</string>
+
+    //RegistroActivity
+    <string name="Invitacion">Registrate para darle lo mejor a tu mascota.</string>
+    <string name="NombresRegistro">Nombres</string>
+    <string name="ApellidosRegistro">Apellidos</string>
+    <string name="EmailRegistro">Correo Electronico</string>
+    <string name="CelRegistro">Número de celular</string>
+    <string name="ContraseñaRegistro">Contraseña</string>
+    <string name="ConfContraseñaRegistro">Confirmar contraseña</string>
+    <string name="PoliDatosRegistro">Acepta terminos y condiciones de nuestra politica de privacidad.</string>
+    <string name="botonContinuarRegistro">Continuar</string>
+
+    //RegistroMascotaActivity
+    <string name="NombreMascota">Nombre</string>
+    <string name="RazaMascota">Raza</string>
+    <string name="NacimientoMascota">Fecha de nacimiento</string>
+    <string name="GeneroMascota">Genero</string>
+    <string name="TamañoMascota">Tamaño</string>
+    <string name="DescripciónMascota">Cuentanos sobre tu mascota</string>
+    <string name="botonContinuarMascota">Continuar</string>
+
+    //InicioAppActivity
+    <string name="paseosApp">Paseos</string>
+    <string name="guarderiaApp">Guarderia</string>
+    <string name="txtpaseosApp">Se podrá hacer el seguimiento y el control a la ruta trazada por el paseador o lugares escogidos por el usuario, en tiempo real se visualizará el recorrido del paseo.
+</string>
+    <string name="txtguarderiaApp">Se tendrá el paquete de hospedaje, que incluye: recreación y adiestramiento básico, donde podrá monitorear y controlar la localización de su mascota en tiempo real.
+</string>
+</resources>

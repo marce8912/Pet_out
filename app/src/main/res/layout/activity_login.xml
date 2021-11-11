@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login"
+    tools:context=".Steps.LoginActivity">
+
+    <Button
+        android:id="@+id/Registrarse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="25dp"
+        android:layout_toStartOf="@+id/InicioSesion"
+        android:background="#FFEB3B"
+        android:clickable="true"
+        android:onClick="@string/botonRegistrarse"
+        android:text="@string/botonRegistrarse"
+        android:textAllCaps="false"
+        android:textColorHighlight="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/InicioSesion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="25dp"
+        android:background="#FFEB3B"
+        android:clickable="true"
+        android:text="@string/botonInicioSesion"
+        android:textAllCaps="false"
+        android:textColorHighlight="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.186"
+        app:layout_constraintStart_toStartOf="parent" />
+</RelativeLayout>
