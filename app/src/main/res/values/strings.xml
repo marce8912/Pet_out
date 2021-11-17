@@ -15,7 +15,7 @@
     <string name="InicioSesionContraseña">Contraseña</string>
     <string name="ForgotPassword">Forgot Password</string>
     <string name="botonInicioSesionContinuar">Continuar</string>
-    <string name="InicioServicios">NUESTROS SERVICIOS</string>
+
 
 
     //RegistroActivity
@@ -41,8 +41,9 @@
     //InicioAppActivity
     <string name="paseosApp">Paseos</string>
     <string name="guarderiaApp">Guarderia</string>
-    <string name="txtpaseosApp">Se podrá hacer el seguimiento y el control a la ruta trazada por el paseador o lugares escogidos por el usuario, en tiempo real se visualizará el recorrido del paseo.
-</string>
+    <string name="txtpaseosApp">Se podrá hacer el seguimiento y el control a la ruta trazada por el paseador o lugares escogidos por el usuario, en tiempo real se visualizará el recorrido del paseo.</string>
+    <string name="InicioServicios">NUESTROS SERVICIOS</string>
+
     <string name="txtguarderiaApp">Se tendrá el paquete de hospedaje, que incluye: recreación y adiestramiento básico, donde podrá monitorear y controlar la localización de su mascota en tiempo real.
 </string>
 </resources>
