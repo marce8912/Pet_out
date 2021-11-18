@@ -22,17 +22,17 @@
         android:typeface="monospace"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.203"
+        app:layout_constraintHorizontal_bias="0.259"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.182" />
+        app:layout_constraintVertical_bias="0.211" />
 
     <TextView
         android:id="@+id/guarderiaAPP"
         android:layout_width="325dp"
         android:layout_height="61dp"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="380dp"
+        android:layout_marginTop="404dp"
         android:background="@drawable/boton_redondo"
         android:gravity="center"
         android:text="@string/guarderiaApp"
@@ -70,6 +70,7 @@
         android:layout_height="144dp"
         android:layout_marginEnd="40dp"
         android:layout_marginBottom="384dp"
+        android:gravity="center"
         android:text="@string/txtpaseosApp"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -80,7 +81,8 @@
         android:layout_width="325dp"
         android:layout_height="176dp"
         android:layout_marginEnd="40dp"
-        android:layout_marginBottom="88dp"
+        android:layout_marginBottom="68dp"
+        android:gravity="center"
         android:text="@string/txtguarderiaApp"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
