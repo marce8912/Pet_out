@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+     <item android:title="">
+             <menu>
+                     <item android:id="@+id/initPeout"
+                         android:title="@string/inicio"/>
+             </menu>
+     </item>
+        <item android:title="">
+                <menu>
+                        <item android:id="@+id/menuMascotas"
+                            android:title="@string/mis_mascotas"
+                            android:icon="@drawable/loginmascota"
+                            app:showAsAction="always"/>
+                        <item android:id="@+id/menuPaseos"
+                            android:title="@string/paseos"
+                            android:icon="@drawable/menupaseo"
+                            app:showAsAction="ifRoom"/>
+                        <item android:id="@+id/menuguarderia"
+                            android:title="@string/guarderia"
+                            android:icon="@drawable/guarderia"
+                            app:showAsAction="ifRoom"/>
+                        <item android:id="@+id/menuConfiguracion"
+                            android:title="@string/configuraci_n"
+                            android:icon="@drawable/conf"
+                            app:showAsAction="ifRoom"/>
+                        <item android:id="@+id/menuCierre"
+                            android:title="@string/cerrar_sesi_n"
+                            android:icon="@drawable/cerrar"
+                            app:showAsAction="ifRoom"/>
+                </menu>
+        </item>
+
+</menu>
