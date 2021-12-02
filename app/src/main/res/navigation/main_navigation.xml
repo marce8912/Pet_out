@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@+id/initPeout">
+
+    <fragment
+        android:id="@+id/initPeout"
+        android:name="com.example.pet_out.fragments.PetOutFragment"
+        android:label="fragmentPeout"
+        tools:layout="@layout/fragment_pet_out"/>
+    <fragment
+        android:id="@+id/menuMascotas"
+        android:name="com.example.pet_out.fragments.MascotasFragment"
+        android:label="fragmentMascotas"
+        tools:layout="@layout/fragment_mascotas"/>
+
+    <fragment
+        android:id="@+id/menuPaseos"
+        android:name="com.example.pet_out.fragments.PaseosFragment"
+        android:label="fragmentPaseos"
+        tools:layout="@layout/fragment_paseos"/>
+    <fragment
+        android:id="@+id/menuguarderia"
+        android:name="com.example.pet_out.fragments.GuarderiaFragment"
+        android:label="fragmentGuarderia"
+        tools:layout="@layout/fragment_guarderia"/>
+    <fragment
+        android:id="@+id/menuConfiguracion"
+        android:name="com.example.pet_out.fragments.ConfiguracionFragment"
+        android:label="fragmentConfiguracion"
+        tools:layout="@layout/fragment_configuracion"/>
+    <fragment
+        android:id="@+id/menuCierre"
+        android:name="com.example.pet_out.fragments.CierreFragment"
+        android:label="fragmentCierre"
+        tools:layout="@layout/fragment_cierre"/>
+
+</navigation>

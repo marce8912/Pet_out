@@ -12,6 +12,7 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.AdapterView;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.Spinner;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
@@ -30,9 +31,20 @@ public class RegistroMascotaActivity extends Activity {
             @Override
             //Método botón continuar app
             public void onClick(View v) {
-                Intent Continuarapp = new Intent(RegistroMascotaActivity.this, InicioAppActivity.class);
+                Intent Continuarapp = new Intent(RegistroMascotaActivity.this, MenuActivity.class);
                 startActivity(Continuarapp);
 
+            }
+        });
+        ImageButton btnfoto = (ImageButton) findViewById(R.id.btnfoto);
+        btnfoto.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View arg0) {
+                Toast toast1 =
+                        Toast.makeText(getApplicationContext(),
+                                "Toma una foto a tu peludito", Toast.LENGTH_SHORT);
+
+                toast1.show();
             }
         });
     }

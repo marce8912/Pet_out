@@ -36,6 +36,6 @@ public class LoginActivity extends Activity {
                 startActivity(InicioSesion);
             }
         });
-    }
 
+    }
 }

@@ -1,17 +1,27 @@
 <resources>
-    <string name="app_name">Pet_out</string>
+    <string name="app_name">PetOut</string>
 
     //StepActivity
-    <string name="SplashBienvenida">Bienvenidos</string>
-    <string name="Slogan">EL lugar donde cuidamos tu amigo fiel</string>
+    <string name="SplashBienvenida">Welcome</string>
+    <string name="Slogan">Track The Walks Of Your Four Legged Friend</string>
+    <string name="Inicio">LETS GO</string>
+
+    //PaseosActivity
+    <string name="walk">Walk for your pet</string>
+
+    //CuidadoActivity
+    <string name="care">We take care of your pet</string>
+
     //LoginActivity
-    <string name="botonInicioSesion">InicioSesion</string>
+    <string name="botonInicioSesion">Iniciar Sesion</string>
     <string name="botonRegistrarse">Registrarse</string>
 
     //InicioSesionActivity
-    <string name="InicioSesionCorreo">Correo</string>
+    <string name="InicioSesionCorreo">e-mail</string>
     <string name="InicioSesionContraseña">Contraseña</string>
+    <string name="ForgotPassword">Forgot Password</string>
     <string name="botonInicioSesionContinuar">Continuar</string>
+
 
     //RegistroActivity
     <string name="Invitacion">Registrate para darle lo mejor a tu mascota.</string>
@@ -36,8 +46,38 @@
     //InicioAppActivity
     <string name="paseosApp">Paseos</string>
     <string name="guarderiaApp">Guarderia</string>
-    <string name="txtpaseosApp">Se podrá hacer el seguimiento y el control a la ruta trazada por el paseador o lugares escogidos por el usuario, en tiempo real se visualizará el recorrido del paseo.
-</string>
-    <string name="txtguarderiaApp">Se tendrá el paquete de hospedaje, que incluye: recreación y adiestramiento básico, donde podrá monitorear y controlar la localización de su mascota en tiempo real.
-</string>
+    <string name="txtpaseosApp">Se podrá hacer el seguimiento y el control a la ruta trazada por el paseador o lugares escogidos por el usuario, en tiempo real se visualizará el recorrido del paseo.</string>
+    <string name="InicioGrupo">Grupal</string>
+    <string name="InicioSolo">Individual</string>
+    <string name="InicioProg">Programar paseo</string>
+    <string name="InicioCampo">Campo</string>
+    <string name="InicioServicios">Nuestros servicios</string>
+    <string name="txtguarderiaApp">Se tendrá el paquete de hospedaje, que incluye: recreación y adiestramiento básico, donde podrá monitorear y controlar la localización de su mascota en tiempo real
+    </string>
+    //menuActivity
+    <string name="labelMenu">Menu</string>
+
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="paseos">Paseos</string>
+    <string name="mis_mascotas">Mis mascotas</string>
+    <string name="guarderia">Guarderia</string>
+    <string name="configuraci_n">Configuración</string>
+    <string name="cerrar_sesi_n">Cerrar sesión</string>
+    <string name="perfil">Perfil</string>
+    <string name="mi_perfil">Mi perfil</string>
+    <string name="peril_gmail_com">perfil@gmail.com</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="inicio">Inicio</string>
+    <string name="mascotas">Mascotas</string>
+    <string name="send_massage">GO TO WALK</string>
+    <string name="label_search">Search</string>
+    <string name="label_favorites">Rutas Destacadas</string>
+    <string name="label_my_pets">Four Legged Friend</string>
+    <string name="label_profile">Profile</string>
+    <string name="label_discover_pet">Descubre La Ruta Perfecta Para Tu Mascota</string>
+
 </resources>

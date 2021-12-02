@@ -22,7 +22,7 @@ public class StepsActivity extends Activity {
         TimerTask tarea =new TimerTask() {
             @Override
             public void run() {
-                Intent intent= new Intent(StepsActivity.this,LoginActivity.class);
+                Intent intent= new Intent(StepsActivity.this,PaseosActivity.class);
                 startActivity(intent);
                 finish();
             }
@@ -30,4 +30,6 @@ public class StepsActivity extends Activity {
         Timer tiempo= new Timer();
         tiempo.schedule(tarea, 5000);
     }
+    //UI
+
 }
