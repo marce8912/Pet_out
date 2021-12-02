@@ -15,6 +15,11 @@
         android:name="com.example.pet_out.fragments.MascotasFragment"
         android:label="fragmentMascotas"
         tools:layout="@layout/fragment_mascotas"/>
+    <fragment
+        android:id="@+id/slideStepsFragment"
+        android:name="com.example.pet_out.fragments.SlideStepsFragment"
+        android:label="fragment_slide_usuario"
+        tools:layout="@layout/fragment_slide_usuario" />
 
     <fragment
         android:id="@+id/menuPaseos"
@@ -36,11 +41,7 @@
         android:name="com.example.pet_out.fragments.CierreFragment"
         android:label="fragmentCierre"
         tools:layout="@layout/fragment_cierre"/>
-    <fragment
-        android:id="@+id/slideStepsFragment"
-        android:name="com.example.pet_out.fragments.SlideStepsFragment"
-        android:label="fragment_slide_usuario"
-        tools:layout="@layout/fragment_slide_usuario" />
+
     <activity
         android:id="@+id/loginActivity"
         android:name="com.example.pet_out.Steps.LoginActivity"

@@ -3,21 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/LICETH MARCELA/Desktop/proyecto/Pet_out-final4/app/src/main/res/layout-land/linear_layout_walkers.xml" value="0.11351351351351352" />
-        <entry key="..\:/Users/LICETH MARCELA/Desktop/proyecto/Pet_out-final4/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/LICETH MARCELA/Desktop/proyecto/Pet_out-final4/app/src/main/res/layout/activity_menu.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/LICETH MARCELA/Desktop/proyecto/Pet_out-final4/app/src/main/res/layout/activity_registro.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/LICETH MARCELA/Desktop/proyecto/Pet_out-final4/app/src/main/res/layout/activity_steps.xml" value="0.23854166666666668" />
-        <entry key="..\:/Users/LICETH MARCELA/Desktop/proyecto/Pet_out-final4/app/src/main/res/layout/fragment_cierre.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/LICETH MARCELA/Desktop/proyecto/Pet_out-final4/app/src/main/res/layout/fragment_guarderia.xml" value="0.4" />
-        <entry key="..\:/Users/LICETH MARCELA/Desktop/proyecto/Pet_out-final4/app/src/main/res/layout/fragment_mascotas.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/LICETH MARCELA/Desktop/proyecto/Pet_out-final4/app/src/main/res/layout/fragment_paseos.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/LICETH MARCELA/Desktop/proyecto/Pet_out-final4/app/src/main/res/layout/fragment_pet_out.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/LICETH MARCELA/Desktop/proyecto/Pet_out-final4/app/src/main/res/layout/fragment_profile.xml" value="0.264" />
-        <entry key="..\:/Users/LICETH MARCELA/Desktop/proyecto/Pet_out-final4/app/src/main/res/layout/fragment_register_dog.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/LICETH MARCELA/Desktop/proyecto/Pet_out-final4/app/src/main/res/layout/linear_layout.xml" value="0.2015625" />
-        <entry key="..\:/Users/LICETH MARCELA/Desktop/proyecto/Pet_out-final4/app/src/main/res/menu/bottom_menu.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/LICETH MARCELA/Desktop/proyecto/Pet_out-final4/app/src/main/res/menu/menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/LICETH MARCELA/Desktop/proyecto/Pet_out-final4.1/app/src/main/res/layout/fragment_maps.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/LICETH MARCELA/Desktop/proyecto/Pet_out-final4.1/app/src/main/res/layout/fragment_mascotas.xml" value="0.1" />
       </map>
     </option>
   </component>

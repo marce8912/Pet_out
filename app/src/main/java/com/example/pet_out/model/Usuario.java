@@ -6,8 +6,7 @@ import com.google.firebase.database.IgnoreExtraProperties;
 @IgnoreExtraProperties
 public class Usuario implements Serializable {
 
-    private String name,lastname,email,phone,uid;
-    private int id;
+    private String name,lastname,email,phone,id;
 
 
 
@@ -18,27 +17,17 @@ public class Usuario implements Serializable {
         this.lastname = lastname;
         this.email = email;
         this.phone = phone;
-        this.uid=uid;
-    }
-
-
-
-
-
-    public String getUid() {
-        return uid;
-    }
-
-    public void setUid(String uid) {
-        this.uid = uid;
 
     }
 
-    public int getId() {
+
+
+
+    public String getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(String id) {
         this.id = id;
     }
 
