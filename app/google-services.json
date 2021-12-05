@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "301935589738",
+    "firebase_url": "https://petout-b0a97-default-rtdb.firebaseio.com",
+    "project_id": "petout-b0a97",
+    "storage_bucket": "petout-b0a97.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:301935589738:android:306e55cdb1e62b260d4d13",
+        "android_client_info": {
+          "package_name": "com.example.pet_out"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "301935589738-kfgta6d7e70lcc80li1ojhs5ajkk01k4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBMgNWXpUb-DlRw-EJluB4wXrxsX9W0tE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "301935589738-kfgta6d7e70lcc80li1ojhs5ajkk01k4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

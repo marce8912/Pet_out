@@ -1,58 +1,129 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/singin_layaut_login"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/login"
+    android:background="@drawable/pet"
     tools:context=".Steps.LoginActivity">
 
-    <Button
-        android:id="@+id/Registrarse"
-        android:layout_width="177dp"
-        android:layout_height="70dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="22dp"
-        android:layout_marginEnd="18dp"
-        android:layout_marginBottom="25dp"
-        android:layout_toStartOf="@+id/InicioSesion"
-        android:background="@drawable/boton_redondo"
-        android:backgroundTint="@color/teal_700"
-        android:backgroundTintMode="src_over"
-        android:clickable="true"
-        android:fontFamily="@font/poppins_family"
-        android:onClick="@string/botonRegistrarse"
-        android:text="@string/botonRegistrarse"
-        android:textAllCaps="false"
-        android:textColor="@color/white"
-        android:textColorHighlight="@color/black"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        android:typeface="monospace"
-        app:layout_constraintHorizontal_bias="0.186"
-        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout4"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/email_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="12"
+            android:fontFamily="@font/poppins_family"
+            android:hint="@string/example_email"
+            android:inputType="textWebEmailAddress"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textColorHint="@color/grey" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout5"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout4">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/password_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="12"
+            android:inputType="textPassword"
+            android:fontFamily="@font/poppins_family"
+            android:hint="Pasword"
+            android:textColorHint="@color/black" />
+    </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:id="@+id/InicioSesion"
-        android:layout_width="177dp"
-        android:layout_height="70dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="18dp"
-        android:layout_marginBottom="25dp"
-        android:background="@drawable/boton_redondo"
+        android:id="@+id/singin_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="32dp"
         android:backgroundTint="@color/teal_700"
-        android:clickable="true"
-        android:fontFamily="@font/poppins_family"
-        android:text="@string/botonInicioSesion"
-        android:textAllCaps="false"
-        android:textColor="@color/white"
-        android:textColorHighlight="@color/black"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        android:typeface="monospace"
+        android:text="Iniciar Sesion"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.186"
-        app:layout_constraintStart_toStartOf="parent" />
-</RelativeLayout>
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/signup_login"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout5" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/singGoogleBnt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="188dp"
+        android:backgroundTint="@color/teal_700"
+        android:foregroundGravity="center"
+        android:textAlignment="center"
+        android:textDirection="locale"
+        app:layout_constraintEnd_toEndOf="@+id/singin_login"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/signup_login"
+        app:layout_constraintTop_toBottomOf="@+id/singin_login" />
+
+    <Button
+        android:id="@+id/signup_login"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="96dp"
+        android:backgroundTint="@color/teal_700"
+        android:text="Registrarse"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toStartOf="@+id/singin_login"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout5" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Forget Password"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.76"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/singin_login" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/poppins_family"
+        android:text="@string/app_name"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.455"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

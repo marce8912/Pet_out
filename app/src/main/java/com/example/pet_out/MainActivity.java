@@ -1,6 +1,7 @@
 package com.example.pet_out;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -12,8 +13,9 @@ import androidx.navigation.NavController;
 import androidx.navigation.fragment.NavHostFragment;
 import androidx.navigation.ui.NavigationUI;
 
-import com.example.pet_out.model.StepDAO;
+import com.example.pet_out.Steps.LoginActivity;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.firebase.auth.FirebaseAuth;
 
 public class MainActivity extends AppCompatActivity {
     private static final String TAG_MAIN = "_MainActivity_";
@@ -24,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
     BottomNavigationView navigationView;
     NavHostFragment navHostFragment;
     NavController navController;
+    FirebaseAuth auth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,6 +56,21 @@ public class MainActivity extends AppCompatActivity {
         setTheme(R.style.Theme_Pet_out);
     }
 
+
+    private void validateUser() {
+        auth = FirebaseAuth.getInstance();
+        if(auth.getCurrentUser() == null || !auth.getCurrentUser().isEmailVerified()){
+            navigateToLogin();
+            finish();
+        }
+
+    }
+
+    private void navigateToLogin() {
+        Intent login = new Intent(this, LoginActivity.class);
+        login.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        startActivity(login);
+    }
     private void setup() {
         navController = navHostFragment.getNavController();
         NavigationUI.setupWithNavController(navigationView, navController);

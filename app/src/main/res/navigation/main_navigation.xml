@@ -36,5 +36,20 @@
         android:name="com.example.pet_out.fragments.CierreFragment"
         android:label="fragmentCierre"
         tools:layout="@layout/fragment_cierre"/>
+    <fragment
+        android:id="@+id/slideStepsFragment"
+        android:name="com.example.pet_out.fragments.SlideStepsFragment"
+        android:label="fragment_slide_usuario"
+        tools:layout="@layout/fragment_slide_usuario" />
+    <activity
+        android:id="@+id/loginActivity"
+        android:name="com.example.pet_out.Steps.LoginActivity"
+        android:label="activity_login"
+        tools:layout="@layout/activity_login" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.pet_out.fragments.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
 
 </navigation>

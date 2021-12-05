@@ -40,13 +40,12 @@ public class CuidadoActivity extends AppCompatActivity {
             @Override
             //Método botón Paseos
             public void onClick(View v) {
-                Intent imgbtnCuidado = new Intent(CuidadoActivity.this, LoginActivity.class);
-                startActivity(imgbtnCuidado);
-
-
                 if(!validatePermission()) {
                     setRequestPermission();
                     return;
+                }else{
+                    Intent imgbtnCuidado = new Intent(CuidadoActivity.this, LoginActivity.class);
+                    startActivity(imgbtnCuidado);
                 }
 
             }
@@ -60,7 +59,7 @@ public class CuidadoActivity extends AppCompatActivity {
                 ContextCompat.checkSelfPermission(CuidadoActivity.this, permissions[1]) +
                 ContextCompat.checkSelfPermission(CuidadoActivity.this, permissions[2]) +
                 ContextCompat.checkSelfPermission(CuidadoActivity.this, permissions[3]) ==
-                PackageManager.PERMISSION_DENIED);
+                PackageManager.PERMISSION_GRANTED);
     }
 
     private void setRequestPermission() {
@@ -91,6 +90,10 @@ public class CuidadoActivity extends AppCompatActivity {
             }
         } else
             Toast.makeText(CuidadoActivity.this, "Permisos Garantizados!!!", Toast.LENGTH_SHORT).show();
+            //Intent imgbtnCuidado = new Intent(CuidadoActivity.this, LoginActivity.class);
+            //startActivity(imgbtnCuidado);
+
+
     }
 
     @Override

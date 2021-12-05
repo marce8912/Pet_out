@@ -78,6 +78,17 @@
     <string name="label_favorites">Rutas Destacadas</string>
     <string name="label_my_pets">Four Legged Friend</string>
     <string name="label_profile">Profile</string>
-    <string name="label_discover_pet">Descubre La Ruta Perfecta Para Tu Mascota</string>
-
+    <string name="label_discover_pet">Descubre La Ruta Perfecta AQUI</string>
+    <string name="label_encuentra">TU MASCOTA EN LAS MEJORES MANOS</string>
+    <string name="example_email">example@example.com</string>
+    <string name="label_password">Password</string>
+    <string name="label_pets">Mascotas Destacadas</string>
+    <string name="label_ruta">Rutas Destacadas</string>
+    <string name="label_guarderia">Guarderias Destacadas</string>
+    <string name="label_sign_out">Sign Out</string>
+    <string name="bucket_default">gs://petout-b0a97.appspot.com</string>
+    <string name="url_mi_mascota">https://petout-b0a97.firebaseapp.com/</string>
+    <string name="txtrelleno">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+    </string>
+    <string name="paseadores">paseadores</string>
 </resources>

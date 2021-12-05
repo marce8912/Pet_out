@@ -1,9 +1,6 @@
 package com.example.pet_out;
 
-import android.content.ContentValues;
 import android.content.Context;
-import android.database.sqlite.SQLiteDatabase;
-import android.os.Bundle;
 
 import androidx.test.platform.app.InstrumentationRegistry;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
@@ -18,8 +15,8 @@ import static org.junit.Assert.*;
 import com.example.pet_out.Logica.UsuarioRegister;
 import com.example.pet_out.Steps.RegistroActivity;
 import com.example.pet_out.database.DataBaseHelper;
-import com.example.pet_out.database.Usuario;
-import com.example.pet_out.model.StepDAO;
+import com.example.pet_out.model.Usuario;
+
 /**
  * Instrumented test, which will execute on an Android device.
  *

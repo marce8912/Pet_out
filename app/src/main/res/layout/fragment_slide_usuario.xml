@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.SlideStepsFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/img_animation_steps"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="16dp"
+            android:minWidth="150dp"
+            android:minHeight="150dp"
+            app:layout_constraintBottom_toTopOf="@+id/text_title_steps"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/walk"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/text_title_steps"
+            android:layout_width="338dp"
+            android:layout_height="128dp"
+            android:layout_marginTop="32dp"
+            android:ems="7"
+            android:fontFamily="@font/poppins_family"
+            android:maxLines="2"
+            android:text="@string/label_encuentra"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textFontWeight="700"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/text_sub_steps"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/img_animation_steps" />
+
+        <TextView
+            android:id="@+id/text_sub_steps"
+            android:layout_width="310dp"
+            android:layout_height="119dp"
+            android:layout_marginTop="24dp"
+            android:ems="8"
+            android:fontFamily="sans-serif"
+            android:text="@string/label_discover_pet"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textFontWeight="300"
+            android:textSize="34sp"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/text_title_steps"
+            app:layout_constraintStart_toStartOf="@+id/text_title_steps"
+            app:layout_constraintTop_toBottomOf="@+id/text_title_steps" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

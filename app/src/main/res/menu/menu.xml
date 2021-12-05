@@ -14,7 +14,7 @@
                             android:icon="@drawable/loginmascota"
                             app:showAsAction="always"/>
                         <item android:id="@+id/menuPaseos"
-                            android:title="@string/paseos"
+                            android:title="@string/paseadores"
                             android:icon="@drawable/menupaseo"
                             app:showAsAction="ifRoom"/>
                         <item android:id="@+id/menuguarderia"
